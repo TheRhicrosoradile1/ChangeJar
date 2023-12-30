@@ -40,6 +40,7 @@ public class TransactionController {
 
     @GetMapping
     public List<Transaction> getAllTransactionList() {
+
         return transactionService.getTransactionList();
     }
 
